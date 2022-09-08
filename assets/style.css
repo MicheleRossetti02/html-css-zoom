@@ -38,6 +38,7 @@ main{
     width: 90%;
     /* height: 500px; */
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 .row{
     display: flex;
@@ -72,3 +73,22 @@ main{
   
  }
 
+footer{
+    background-color: #222222;
+    /* height: 60px; */
+
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+.item_footer{
+    width: 30px;
+    text-align: center;
+
+}
+.col_3{
+    background-color: #4A4A4A;
+    color: red;
+}
