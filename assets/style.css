@@ -29,3 +29,46 @@ header{
     padding-bottom: 1.5rem;
     background-color: black;
 }
+main{
+    background-color: black;
+}
+
+
+.conteiner{
+    width: 90%;
+    /* height: 500px; */
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.webcam {
+    width: calc(100% / 8);
+    position: relative;
+}
+.webcam{
+    position:relative;
+    margin: 2px;
+}
+.box{
+    /* position: absolute; */
+    width: 140px;
+    height: 100px;
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+}
+
+.description{
+    position: absolute;
+    bottom: 3px;
+    left: 2px;
+}
+.info{
+    color: white;
+    width: 0.6rem;
+    background-color: rgba(128, 128, 128, 0.522);
+  
+ }
+
